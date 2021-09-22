@@ -1,13 +1,10 @@
+import { useState } from 'react';
+
 import './Home.css'
 import 'boxicons'
 
 function Home () {
-    const dayNight = document.querySelector('.dayNight');
-    const menuToggle = document.querySelector('.menuToggle');
-    const body = document.querySelector('body');
-    dayNight.onclick = function(){
-        body.classList.toggle('dark')
-    }
+    
     return (
        <header>
            <div className="rightSide">
