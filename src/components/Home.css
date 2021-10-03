@@ -15,24 +15,3 @@ header {
 .rightSide{
     display: flex;
 }
-.btn {
-    position: relative;
-    width: 40px;
-    height: 40px;
-    background: burlywood;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    margin-left: 10px;
-}
-.btn box-icon {
-    font-size: 1.5em;
-    color: rgb(30, 33, 210);
-}
-.btn .menuToggle box-icon {
-    font-size: 3em;
-}
-.btn box-icon:nth-child(2) {
-    display: none;
-}
