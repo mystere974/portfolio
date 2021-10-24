@@ -26,3 +26,36 @@
        
        </>
         
+
+
+
+        /* const video = {
+      playsInline: "playsinline",
+      autoPlay:"autoplay",
+      loop:"loop",
+      muted:"muted"
+    }
+    const source ={
+      src:{film}
+    }
+    const inline = {
+      left: '50%',
+      top: '50%',
+      position: 'absolute',
+      transform: 'translate(-50%, -50%)',
+    } */
+
+
+    {/* <>
+<Parallax strength={500} bgImage={mask}>
+  <div style={{ height: 500}}>
+    <Background className="main">
+  <video playsInline="playsinline" autoPlay="autoplay" loop="loop" muted="muted">
+               <source src={film} />
+           </video>
+           
+           <h2>LOGHANN MUSSARD</h2>
+    <div style={inline}>LOGHANN MUSSARD</div>
+      </Background>
+  </div>
+</Parallax> */}
