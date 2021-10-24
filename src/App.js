@@ -1,5 +1,4 @@
 import { BrowserRouter } from 'react-router-dom'
-import {ParallaxProvider} from "react-scroll-parallax"
 import { Switch, Route } from 'react-router';
 import { useState } from 'react';
 
@@ -12,9 +11,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-      <ParallaxProvider>
       <Home/>
-      </ParallaxProvider>
       </BrowserRouter>
     </div>
   );
